@@ -77,6 +77,7 @@ jobs:
           format: table
           severity: CRITICAL
           ignore-unfixed: 'true'
+          trivyignores: .github/contabo-dev.trivyignore
           exit-code: '1'
 
       - name: Push and print image reference

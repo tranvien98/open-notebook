@@ -1,7 +1,0 @@
-# Accepted findings for the contabo-dev image scan. Keep each entry justified
-# and remove it once upstream dependencies ship the fix.
-
-# node-tar 7.5.1 DoS via crafted gzip bomb. Only present in the npm bundled
-# inside the `nodejs_wheel` Python package in /app/.venv; that npm is never
-# invoked at runtime to extract untrusted tarballs. (2026-10-14)
-CVE-2026-59873
